@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Tổng hợp các thẻ đã học</title>
+</head>
+<body bgcolor="#F3E5F5">
+    <p align="center">
+        <a href="index.html">Trang chủ</a> |
+        <a href="kehoachhoctap.html">Kế hoạch học tập</a> |
+        <a href="sothich.html">Sở thích</a> |
+        <a href="lienhe.html">Liên hệ</a> |
+        <a href="tonghop.html">Trang tổng hợp</a>
+    </p>
+    <hr color="purple" size="3">
+
+    <marquee behavior="scroll" direction="left">
+        <font color="purple" size="4"><b>Trang web tổng hợp tất cả các thẻ HTML đã học - Nguyễn Minh Thăng</b></font>
+    </marquee>
+
+    <h1 align="center"><font color="indigo">BÀI TẬP TỔNG HỢP HTML</font></h1>
+    <h2>1. Các thẻ định dạng văn bản</h2>
+    <p>
+        Đây là <b>chữ in đậm</b>, <i>chữ in nghiêng</i>, <u>chữ gạch chân</u>, 
+        <s>chữ gạch ngang</s>, <mark>chữ tô sáng</mark>.<br>
+        Công thức hóa học: H<sub>2</sub>O &nbsp;|&nbsp; Công thức toán học: x<sup>2</sup> + y<sup>2</sup> = z<sup>2</sup>.
+    </p>
+
+    <hr>
+
+    <h2>2. Các thẻ danh sách</h2>
+    <p><b>Danh sách không thứ tự (ul):</b></p>
+    <ul type="disc">
+        <li>Vẽ</li>
+        <li>Chơi cờ vua</li>
+        <li>Boardgame</li>
+        <li>Nghe nhạc</li>
+    </ul>
+
+    <p><b>Danh sách có thứ tự (ol):</b></p>
+    <ol type="A">
+        <li>Thiết kế Web</li>
+        <li>Lập trình cơ bản</li>
+        <li>Tâm lý học đại cương</li>
+    </ol>
+
+    <hr>
+
+    <h2>3. Thẻ tạo bảng (table)</h2>
+    <table border="1" cellpadding="8" cellspacing="0" width="80%" bgcolor="#FFFFFF">
+        <tr bgcolor="#E1BEE7">
+            <th>STT</th>
+            <th>Nội dung</th>
+            <th>Ghi chú</th>
+        </tr>
+        <tr>
+            <td align="center">1</td>
+            <td>Họ tên & Ngày sinh</td>
+            <td>Nguyễn Minh Thăng - 03/03/2008</td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td>Liên hệ</td>
+            <td>0346815683 - Ngminhthang2k8@gmail.com</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>4. Thẻ biểu mẫu (form)</h2>
+    <form>
+        Họ tên: <input type="text" name="hoten" value="Nguyễn Minh Thăng"><br><br>
+        Giới tính: 
+        <input type="radio" name="gt" value="nam" checked> Nam
+        <input type="radio" name="gt" value="nu"> Nữ<br><br>
+        Sở thích: 
+        <input type="checkbox" name="st1" checked> Vẽ
+        <input type="checkbox" name="st2" checked> Cờ vua
+        <input type="checkbox" name="st3" checked> Boardgame
+        <input type="checkbox" name="st4" checked> Nghe nhạc<br><br>
+        Màu nền yêu thích: 
+        <select name="maunen">
+            <option>Xanh dương nhạt</option>
+            <option>Vàng nhạt</option>
+            <option>Tím nhạt</option>
+        </select><br><br>
+        Ghi chú:<br>
+        <textarea rows="3" cols="35"></textarea><br><br>
+        <input type="submit" value="Gửi">
+        <input type="reset" value="Làm lại">
+    </form>
+</body>
+</html>
